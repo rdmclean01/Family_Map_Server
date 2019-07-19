@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Father's Side" />
+
+            <TextView
+                android:id="@+id/filter_by_specifier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FILTER BY FATHER'S SIDE OF THE FAMILY" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/filter_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+    
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+
+</android.support.constraint.ConstraintLayout>
